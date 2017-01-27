@@ -1,0 +1,22 @@
+# This script reads in the data file Astr511HW1data.dat which contains
+# information for >600,000 stars with b > 80 degrees (within 10 deg of 
+# Gal. North Pole) and 14 < r < 21
+
+# It computes:
+#      the absolute magnitude using photometric parallax relation
+
+
+
+
+
+# N. Nicole Sanchez      -- AST511: Galactic Structure 
+# Univ. of Wash, Seattle -- January 17, 2017
+import matplotlib.pyplot as plt
+import numpy as np
+
+A,B,C,D,E = -13.13,14.09,28.04,-5.51,-5.90
+F,G,H,I,J = -58.68,9.14,-20.60,0.0,58.29
+
+# [Fe/H] for g-r > 0.6
+Fe_H_gt0.6 = -0.6
+
